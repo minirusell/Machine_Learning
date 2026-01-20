@@ -21,6 +21,6 @@ def descenso_gradiente(x,y):
 
 
 df = pd.read_csv("test_scores.csv")
-x = np.array(df.math)
+x = np.array(df.math)     
 y = np.array(df.cs)
 descenso_gradiente(x,y)
